@@ -24,19 +24,11 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     );
 };
 
-
-
-
-// FeedbackOptions.propTypes = {
-//   options: PropTypes.arrayOf(PropTypes.string.isRequired),
-//   onLeaveFeedback: PropTypes.func.isRequired,
-// };
-// FeedbackOptions.propTypes = {
-//   onLeaveFeedback: PropTypes.func.isRequired,
-//   options: PropTypes.object.isRequired,
-// };
-
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
+
+
+
+
